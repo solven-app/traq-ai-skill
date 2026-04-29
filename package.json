@@ -1,0 +1,37 @@
+{
+  "name": "traq-ai-skill",
+  "version": "1.0.0",
+  "description": "AI skill for interacting with the TRAQ productivity tracking app",
+  "bin": {
+    "traq-skill": "./bin/cli.js",
+    "traq-mcp": "./mcp-server.js"
+  },
+  "scripts": {
+    "mcp": "node ./mcp-server.js"
+  },
+  "main": "./bin/cli.js",
+  "preferGlobal": true,
+  "keywords": [
+    "traq",
+    "productivity",
+    "ai",
+    "skill",
+    "task-management"
+  ],
+  "author": "Solven App",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "node-git-server": "^1.0.0"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "references/",
+    "templates/"
+  ]
+}
