@@ -1,0 +1,16 @@
+# TRAQ Project Rules
+
+## AI Context
+This repository contains a specialized AI skill in `traq-ai-skill/`.
+Always refer to `traq-ai-skill/SKILL.md` for the Master API Specification.
+Always refer to `traq-ai-skill/references/best-practices.md` for architectural standards.
+
+## Tech Stack
+- **Frontend**: React + TypeScript (in `client/`)
+- **Backend**: Node.js + Express (in `server/`)
+- **Style**: Vanilla CSS (prefer explicit composition)
+
+## Development Workflow
+- Follow the multi-user data isolation model described in `SKILL.md`.
+- All API requests must be scoped to the authenticated user via Bearer Token.
+- Use `traq-ai-skill/templates/snippet.js` for example API interactions.

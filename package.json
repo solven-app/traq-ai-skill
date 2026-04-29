@@ -11,22 +11,15 @@
   },
   "main": "./bin/cli.js",
   "preferGlobal": true,
-  "keywords": [
-    "traq",
-    "productivity",
-    "ai",
-    "skill",
-    "task-management"
-  ],
+  "keywords": ["traq", "productivity", "ai", "skill", "task-management"],
   "author": "Solven App",
   "license": "MIT",
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.1",
     "dotenv": "^16.0.0",
-    "node-git-server": "^1.0.0"
+    "@modelcontextprotocol/sdk": "^1.0.1"
   },
   "files": [
     "bin/",

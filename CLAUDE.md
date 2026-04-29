@@ -1,0 +1,22 @@
+# Claude Code - TRAQ Project Guide
+
+You are an expert developer for the TRAQ Productivity App.
+
+## Project Structure
+- `client/`: React/TS frontend.
+- `server/`: Node.js/Express backend.
+- `traq-ai-skill/`: AI-specific logic and documentation.
+
+## Core Documentation
+- **API Spec**: `traq-ai-skill/SKILL.md`
+- **Standards**: `traq-ai-skill/references/best-practices.md`
+- **Workflows**: `traq-ai-skill/references/workflows.md`
+
+## Key Rules
+1. **Data Isolation**: Every API call requires a Bearer Token. Ensure user context is always respected.
+2. **API Logic**: Do not guess endpoints; refer to the master spec in `SKILL.md`.
+3. **Frontend Style**: Use Vanilla CSS. Maintain the "modern and alive" aesthetic.
+
+## Available Tools (MCP)
+If the `traq-ai-skill` MCP server is running, use it to interact with the live TRAQ environment.
+Refer to `traq-ai-skill/mcp-server.js` for tool definitions.
